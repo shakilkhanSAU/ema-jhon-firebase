@@ -1,0 +1,35 @@
+.product {
+    display: flex;
+    margin: 5px;
+    border-bottom: 1px solid gray;
+    padding: 7px 0;
+}
+
+.product-name {
+    color: green;
+    font-weight: 400;
+}
+
+.btn-regular {
+    padding: 8px 60px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    border: 3px solid crimson;
+    background-color: crimson;
+    transition: .4s;
+}
+
+.btn-regular:hover {
+    cursor: pointer;
+    color: crimson;
+    background-color: #fff;
+    border: 3px solid crimson;
+}
+
+.icon {
+    font-size: 23px;
+    color: crimson;
+    padding-bottom: 20px;
+}
